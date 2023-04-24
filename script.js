@@ -79,4 +79,4 @@ function sacarAmarillo(){
 
 setInterval(()=>{
     iniciarSemaforo()
-},10000)
+},3000)
