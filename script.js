@@ -10,7 +10,7 @@ function iniciarSemaforo(){
     },2000)
     setTimeout(()=>{
         ponerEnVerde()
-    },7000)
+    },6000)
 }
 
 function ponerEnRojo(){
@@ -76,7 +76,7 @@ function sacarAmarillo(){
 
     }
 }
-
+iniciarSemaforo()
 setInterval(()=>{
     iniciarSemaforo()
-},3000)
+},10000)
