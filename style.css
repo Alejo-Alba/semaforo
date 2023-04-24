@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.semaforo{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(231, 194, 63);
+    border-radius: 15%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.luz{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(13, 9, 4);
+    position: relative;
+}
+.red{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(151, 2, 2);
+    position: absolute;
+}
+.yellow{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(169, 169, 3);
+    position: absolute;
+}
+.green{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(1, 97, 1);
+    position: absolute;
+}
+
+.redlight{
+    background: radial-gradient(circle, white 0%, rgb(226, 40, 40) 0%, rgb(255, 0, 0) 100%) ;
+    box-shadow: 0px 0px 10px 10px red;
+}
+
+.yellowlight{
+    background: radial-gradient(circle, white 0%, rgb(237, 237, 86) 0%, yellow 100%) ;
+    box-shadow: 0px 0px 10px 10px yellow;
+}
+
+.greenlight{
+    background: radial-gradient(circle, white 0%, rgb(71, 243, 74) 0%, rgb(0, 255, 4) 100%) ;
+    box-shadow: 0px 0px 10px 10px yellow;
+}
